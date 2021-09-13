@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "flatulent",
+  "version": "${version}",
+  "name": "Flatulent",
+  "description": "",
+  "authors": [
+    "TirFarThoinn",
+    "Exo"
+  ],
+  "contact": {
+    "website": "https://emptybottlemods.com"
+  },
+  "license": "MIT",
+  "icon": "assets/flatulent/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.emptybottlemods.flatulent.client.FlatulentClient"
+    ],
+    "main": [
+      "com.emptybottlemods.flatulent.Flatulent"
+    ]
+  },
+  "mixins": [
+    "flatulent.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
